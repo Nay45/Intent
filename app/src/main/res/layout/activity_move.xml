@@ -10,9 +10,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MoveActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/this_is_moveactivity"/>
+        android:layout_marginRight="250dp"
+        android:backgroundTint="#00b4d8"
+        android:text="@string/back"/>
+
+    <TextView
+        android:layout_below="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_moveactivity"
+        android:textSize="20dp"/>
 
 </RelativeLayout>
