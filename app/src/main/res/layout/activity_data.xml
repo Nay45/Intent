@@ -18,51 +18,11 @@
         android:backgroundTint="#00b4d8"
         android:text="@string/back"/>
 
-    <RadioGroup
-        android:id="@+id/radio_group"
-        android:layout_below="@+id/btn_back"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/tv_data_received"
+        android:layout_below="@id/btn_back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/choose_number"
-        android:textSize="20dp"/>
-
-    <RadioButton
-        android:id="@+id/choose1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/_50"/>
-
-    <RadioButton
-        android:id="@+id/choose2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/_100"/>
-
-    <RadioButton
-        android:id="@+id/choose3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/_150"/>
-
-    <RadioButton
-        android:id="@+id/choose4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/_150"/>
-
-    </RadioGroup>
-
-    <Button
-        android:id="@+id/btnDisplay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/radio_group"
-        android:layout_centerInParent="true"
-        android:text="Display" />
+        android:text="@string/data_received"/>
 
 </RelativeLayout>
